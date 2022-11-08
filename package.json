@@ -1,0 +1,20 @@
+{
+  "name": "sitemapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "keywords": ["sitemap", "nodejs", "auto generator"],
+  "author": "dieptv1999",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
